@@ -1,0 +1,9 @@
+{
+	"name": "compression",
+	"version": "1.0.0",
+	"author": "Will Mulligan <wmulligan@me.com>",
+	"private": true,
+	"dependencies": {
+		"express": "2.x"
+	}
+}

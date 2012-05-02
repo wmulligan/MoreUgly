@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>UglifyPlus - UglifyJS</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="Header"></div>
+	<div id="Global">
+			<h1>UglifyPlus is an extension to UglifyJS with object mangling.</h1>
+			<div><a id="parse">Parse</a></div>
+			<div id="main" class="clearfix">
+				<div id="input">
+					<h2>// JavaScript Source</h2>
+					<div>
+						<div id="input-editor"></div>
+					</div>
+				</div>
+				<div id="ast">
+					<h2>// Minified Source</h2>
+					<div>
+						<div id="ast-editor"></div>
+					</div>
+				</div>
+			</div>
+	</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="ace/ace.js" type="text/javascript" charset="utf-8"></script>
+	<script src="ace/theme-twilight.js" type="text/javascript" charset="utf-8"></script>
+	<script src="ace/mode-javascript.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

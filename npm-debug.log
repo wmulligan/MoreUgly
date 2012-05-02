@@ -1,0 +1,43 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'link', '../UglifyJS/' ]
+info using npm@1.0.106
+info using node@v0.4.9
+verbose config file /home/wmulligan/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/lib/node_modules/npm/npmrc
+silly testEngine { name: 'uglify-js',
+silly testEngine   description: 'JavaScript parser and compressor/beautifier toolkit',
+silly testEngine   author: 
+silly testEngine    { name: 'Mihai Bazon',
+silly testEngine      email: 'mihai.bazon@gmail.com',
+silly testEngine      url: 'http://mihai.bazon.net/blog' },
+silly testEngine   version: '1.1.1',
+silly testEngine   main: './uglify-js.js',
+silly testEngine   bin: { uglifyjs: './bin/uglifyjs' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git@github.com:mishoo/UglifyJS.git' },
+silly testEngine   _id: 'uglify-js@1.1.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/wmulligan/UglifyJS/package.json
+verbose loadDefaults uglify-js@1.1.1
+ERR! Error: EACCES, Permission denied '/usr/lib/node_modules/uglify-js'
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Linux 3.0.0-15-generic
+ERR! command "node" "/usr/bin/npm" "link" "../UglifyJS/"
+ERR! cwd /home/wmulligan/moreugly
+ERR! node -v v0.4.9
+ERR! npm -v 1.0.106
+ERR! path /usr/lib/node_modules/uglify-js
+ERR! code EACCES
+verbose exit [ 1, true ]
